@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcproj", "{B5228A2E-BB90-4607-BD94-9FAAA242F6CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Client", "01. Client", "{4C64999B-9869-418F-94DA-4A04D5C655C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Tool", "02. Tool", "{95639F59-AF01-4497-995C-9E9DD46B5308}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Tool.vcproj", "{8310A4D5-7C25-41B1-B087-F214B59F6002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Headers", "00. Headers", "{E6BB4123-D11D-4E2F-BE86-1821D4D27CC8}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Constant.h = Headers\Constant.h
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Factory.h = Headers\Factory.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Include.h = Headers\Include.h
+		Headers\Struct.h = Headers\Struct.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Text", "99. Text", "{68E59979-544A-4028-B806-8358726DC56A}"
+	ProjectSection(SolutionItems) = preProject
+		Memo.txt = Memo.txt
+		Transistor 기획서_이진형.txt = Transistor 기획서_이진형.txt
+		구현일정.txt = 구현일정.txt
+		남은거.txt = 남은거.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5228A2E-BB90-4607-BD94-9FAAA242F6CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5228A2E-BB90-4607-BD94-9FAAA242F6CA}.Debug|Win32.Build.0 = Debug|Win32
+		{B5228A2E-BB90-4607-BD94-9FAAA242F6CA}.Release|Win32.ActiveCfg = Release|Win32
+		{B5228A2E-BB90-4607-BD94-9FAAA242F6CA}.Release|Win32.Build.0 = Release|Win32
+		{8310A4D5-7C25-41B1-B087-F214B59F6002}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8310A4D5-7C25-41B1-B087-F214B59F6002}.Debug|Win32.Build.0 = Debug|Win32
+		{8310A4D5-7C25-41B1-B087-F214B59F6002}.Release|Win32.ActiveCfg = Release|Win32
+		{8310A4D5-7C25-41B1-B087-F214B59F6002}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5228A2E-BB90-4607-BD94-9FAAA242F6CA} = {4C64999B-9869-418F-94DA-4A04D5C655C2}
+		{8310A4D5-7C25-41B1-B087-F214B59F6002} = {95639F59-AF01-4497-995C-9E9DD46B5308}
+	EndGlobalSection
+EndGlobal
